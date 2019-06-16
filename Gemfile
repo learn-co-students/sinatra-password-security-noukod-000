@@ -10,7 +10,9 @@ gem "rspec"
 gem "require_all"
 gem "capybara"
 gem "pry"
-gem "sqlite3"
+#gem 'sqlite3'
+#gem "sqlite3"
+gem 'sqlite3', '~> 1.3.11'
 gem 'shotgun'
 
 group :development do
